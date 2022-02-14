@@ -1,0 +1,5 @@
+f=open("chirag2.txt","r+")
+print(f.readline())
+f.write("i have new laptop")
+f.write("jhdbdg")
+f.close()

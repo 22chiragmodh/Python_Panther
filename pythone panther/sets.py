@@ -1,0 +1,15 @@
+s_from_list=set({1,3,5,7,9})
+print(s_from_list)
+
+
+s=set()
+s.add(2)
+s.add(4)
+print(s)
+s1=s.intersection({2,5})
+print(s,s1)
+s2=s.union({2,3,5})
+print(s,s2)
+print(len(s))
+s.remove(2)
+print(s)
